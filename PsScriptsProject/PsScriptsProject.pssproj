@@ -30,6 +30,7 @@
     <Compile Include="AzureAddServicePrincipalToADGroup.ps1" />
     <Compile Include="AzureSetWebAppProperties.ps1" />
     <Compile Include="AzureRemoveAllPublicIps.ps1" />
+    <Compile Include="AzureSetADUserPassword.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
